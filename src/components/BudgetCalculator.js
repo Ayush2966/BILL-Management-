@@ -7,7 +7,7 @@ const BudgetCalculator = () => {
     const monthlyBudget = useSelector((state) => state.bills.monthlyBudget);
 
     const calculateBillsWithinBudget = (bills, budget) => {
-        bills.sort((a, b) => a.amount - b.amount); // Sort bills by amount (ascending)
+        bills.sort((a, b) => a.amount - b.amount); 
         let total = 0;
         const selectedBills = [];
 
