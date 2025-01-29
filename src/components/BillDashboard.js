@@ -23,7 +23,7 @@ const BillDashboard = () => {
 
     return (
         <div className='bill-dashboard'>
-            <h1>Bill Dashboard</h1>
+            <h1>Bills Management Dashboard</h1>
             <BudgetInput /> 
             <AddBillForm />
             <select onChange={handleFilterChange}>
