@@ -1,0 +1,43 @@
+/* AddBillForm.css */
+.add-bill-form {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-bill-form h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .add-bill-form div {
+    margin-bottom: 10px;
+  }
+  
+  .add-bill-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .add-bill-form input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-bill-form button {
+    background: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-bill-form button:hover {
+    background: #218838;
+  }

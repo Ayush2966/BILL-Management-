@@ -1,0 +1,27 @@
+/* BudgetCalculator.css */
+.budget-calculator {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .budget-calculator h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .budget-calculator p {
+    margin-bottom: 10px;
+  }
+  
+  .budget-calculator ul {
+    margin-top: 10px;
+  }
+  
+  .budget-calculator li {
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
