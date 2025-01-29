@@ -14,7 +14,7 @@ const BudgetInput = () => {
     };
 
     return (
-        <div className="budget-input">  {/* Added className here */}
+        <div className="budget-input">  
             <h2>Set Monthly Budget</h2>
             <form onSubmit={handleSubmit}>
                 <input
