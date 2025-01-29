@@ -1,11 +1,9 @@
-// Action Types
+
 export const ADD_BILL = 'ADD_BILL';
 export const EDIT_BILL = 'EDIT_BILL';
 export const DELETE_BILL = 'DELETE_BILL';
 export const FILTER_BILLS = 'FILTER_BILLS';
-// Action Types
 export const SET_BUDGET = 'SET_BUDGET';
-// Action Creators
 export const addBill = (bill) => ({
     type: ADD_BILL,
     payload: bill,
@@ -26,8 +24,6 @@ export const filterBills = (category) => ({
     payload: category,
 });
 
-
-// Action Creators
 export const setBudget = (budget) => ({
     type: SET_BUDGET,
     payload: budget,
