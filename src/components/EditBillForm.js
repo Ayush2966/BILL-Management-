@@ -33,10 +33,10 @@ const EditBillForm = ({ bill, onCancel }) => {
         const updatedBill = {
             ...bill,
             ...formData,
-            amount: parseFloat(formData.amount), // Convert amount to a number
+            amount: parseFloat(formData.amount), 
         };
         dispatch(editBill(bill.id, updatedBill));
-        onCancel(); // Close the form after submission
+        onCancel(); 
     };
 
     return (
