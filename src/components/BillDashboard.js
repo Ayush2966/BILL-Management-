@@ -5,7 +5,7 @@ import BillList from './BillList';
 import BillChart from './BillChart';
 import BudgetCalculator from './BudgetCalculator';
 import AddBillForm from './AddBillForm';
-import BudgetInput from './BudgetInput'; // Import BudgetInput
+import BudgetInput from './BudgetInput'; 
 import './BillDashboard.css';
 
 const BillDashboard = () => {
@@ -14,7 +14,7 @@ const BillDashboard = () => {
     const filteredBills = useSelector((state) => state.bills.filteredBills);
 
     useEffect(() => {
-        dispatch(filterBills('')); // Reset filter on load
+        dispatch(filterBills('')); 
     }, [dispatch]);
 
     const handleFilterChange = (e) => {
@@ -24,7 +24,7 @@ const BillDashboard = () => {
     return (
         <div className='bill-dashboard'>
             <h1>Bill Dashboard</h1>
-            <BudgetInput /> {/* Add the BudgetInput component */}
+            <BudgetInput /> 
             <AddBillForm />
             <select onChange={handleFilterChange}>
                 <option value="">All Categories</option>
